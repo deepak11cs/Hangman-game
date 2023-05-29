@@ -69,10 +69,6 @@ function showNotification(){
 
 // Set meta tags
 function setMeta() {
-    var link = document.createElement('meta');  
-    link.setAttribute('property', 'og:title');  
-    link.content = 'Echo Dot (4th Gen, 2020 release) | Smart speaker with Alexa | Charcoal';  
-    document.getElementsByTagName('head')[0].appendChild(link);
    ```
         <meta property="og:title" content="Echo Dot (4th Gen, 2020 release) | Smart speaker with Alexa | Charcoal"/>
         <meta property="og:image" content="https://images-na.ssl-images-amazon.com/images/I/41T6qPHm7hL._SR600%2c315_PIWhiteStrip%2cBottomLeft%2c0%2c35_PIStarRatingFOURANDHALF%2cBottomLeft%2c360%2c-6_SR600%2c315_ZA453%252C155%2c445%2c290%2c400%2c400%2cAmazonEmberBold%2c12%2c4%2c0%2c0%2c5_SCLZZZZZZZ_FMpng_BG255%2c255%2c255.jpg"/>
